@@ -11,7 +11,7 @@ def set_values (cred,value):
     ref = db.reference('')
     date=datetime.datetime.now()
     custom_key='data'
-    new_reading_ref = ref.child(custom_key).set({'temperature':{'value': value,'unit': 'Celsius','timestamp': str(date)},'humidité':{'value': valeur,'unit': '%','timestamp': str(date)}
+    new_reading_ref = ref.child(custom_key).set({'temperature':{'value': value,'unit': 'Celsius','timestamp': str(date)},'humidité':{'value': value,'unit': '%','timestamp': str(date)}
 })
 def get_values():  
     ref = db.reference('')

@@ -43,7 +43,7 @@ let myChart = new Chart(ctx, {
       datasets: [{
         label: '# of Votes',
         data: dataTab,
-        borderWidth: 100
+        borderWidth: 1
       }]
     },
     options: {

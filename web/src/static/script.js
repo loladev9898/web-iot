@@ -1,5 +1,5 @@
 let temp=document.getElementById('temperature');
-//let hum =document.getElementById('humidity');
+let hum =document.getElementById('humidity');
 function run() {
   
     const apiUrl = `${window.location.href}/api`;

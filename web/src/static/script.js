@@ -1,5 +1,5 @@
 let temp=document.getElementById('temperature');
-let hum =document.getElementById('humidity');
+//let hum =document.getElementById('humidity');
 function run() {
   
     const apiUrl = `${window.location.href}/api`;
@@ -14,7 +14,7 @@ function run() {
       .then(data => {
         console.log(data);
         temp.innerText=data.data.temperature.value
-        hum.innerText=data.data.humidité.value
+       // hum.innerText=data.data.humidité.value
       })
       .catch(error => {
         console.error('Error:', error);
